@@ -25,7 +25,7 @@ public class PasswordStrengthCheckerExamples {
 
     @Test
     public void at_least_one_alphabetic_character() {
-        assertTrue(checker.isAcceptable("1234567A"));
+        assertTrue(checker.isAcceptable("123456"));
         assertFalse(checker.isAcceptable("12345678"));
     }
 
