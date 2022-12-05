@@ -38,7 +38,7 @@ public class PasswordStrengthCheckerExamples {
     @Test
     public void longer_than_10_characters_for_admins() throws Exception {
         PasswordStrengthChecker checker = PasswordStrengthChecker.forAdmin();
-        assertTrue(checker.isAcceptable("12345678"));
+        assertTrue(checker.isAcceptable("123456789!A"));
         assertFalse(checker.isAcceptable("1234567A"));
     }
 
