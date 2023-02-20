@@ -10,14 +10,14 @@ public class ContainsAlphabeticCharsTest {
 
     @Test
     public void test() {
-        assertTrue(new ContainsAlphabeticChars().isSatisfiedOn("!"));
+        assertTrue(new ContainsAlphabeticChars().isSatisfiedOn("a"));
 
     }
 
     @Test
     public void testFalseCase() {
 
-        assertFalse(new ContainsAlphabeticChars().isSatisfiedOn("a"));
+        assertFalse(new ContainsAlphabeticChars().isSatisfiedOn("!"));
     }
 
 }
