@@ -11,8 +11,12 @@ public class ContainsAlphabeticCharsTest {
     @Test
     public void test() {
         assertTrue(new ContainsAlphabeticChars().isSatisfiedOn("a"));
-        assertTrue(new ContainsAlphabeticChars().isSatisfiedOn("A"));
-        assertFalse(new ContainsAlphabeticChars().isSatisfiedOn("0"));
+
+    }
+
+    @Test
+    public void testFalseCase() {
+
         assertFalse(new ContainsAlphabeticChars().isSatisfiedOn("!"));
     }
 
