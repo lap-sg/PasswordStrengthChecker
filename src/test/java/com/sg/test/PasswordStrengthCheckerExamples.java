@@ -12,7 +12,7 @@ public class PasswordStrengthCheckerExamples {
 
     @Test
     public void at_least_one_uppercase_character() {
-        assertTrue(checker.isAcceptable("1aaaaaaA"));
+        assertTrue(checker.isAcceptable("1aaaaaaS"));
         assertFalse(checker.isAcceptable("1aaaaaaa"));
     }
 
