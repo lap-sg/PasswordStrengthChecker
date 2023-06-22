@@ -11,7 +11,7 @@ public class LongerThanTest {
 
     @Test
     public void test() {
-        assertTrue(new LongerThan(1).isSatisfiedOn("12"));
+        assertTrue(new LongerThan(1).isSatisfiedOn("14"));
         assertFalse(new LongerThan(1).isSatisfiedOn("1"));
     }
 
