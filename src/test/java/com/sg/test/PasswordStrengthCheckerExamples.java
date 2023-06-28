@@ -31,7 +31,7 @@ public class PasswordStrengthCheckerExamples {
 
     @Test
     public void at_least_one_digit() {
-        assertTrue(checker.isAcceptable("AAAAAAA"));
+        assertTrue(checker.isAcceptable("AAAAAA"));
         assertFalse(checker.isAcceptable("AAAAAAAAAAAAAA"));
     }
 
