@@ -10,7 +10,7 @@ public class ContainsAlphabeticCharsTest {
 
     @Test
     public void test() {
-        assertTrue(new ContainsAlphabeticChars().isSatisfiedOn("abcd"));
+        assertTrue(new ContainsAlphabeticChars().isSatisfiedOn("abcdhgfjhgjkhj"));
 
     }
 
